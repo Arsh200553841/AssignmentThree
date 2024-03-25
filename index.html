@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+    <link rel="stylesheet" href="./css/style.css"> <!-- Linking CSS file -->
+    <script src="./js/script.js" defer></script> <!-- Linking JavaScript file with defer attribute -->
+
+</head>
+<body>
+    <div class="container">
+        <h1>Pizza Order Form</h1>
+        <p id="student-info"></p> <!-- Placeholder for student information -->
+        <!-- Pizza order form -->
+        <form id="pizza-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required> <!-- Input field for name -->
+            <br>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea> <!-- Textarea for address -->
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required> <!-- Input field for email -->
+            <br>
+            <label for="delivery">Delivery:</label>
+            <input type="checkbox" id="delivery" name="delivery"> <!-- Checkbox for delivery option -->
+            <br>
+            <label for="delivery-time">Delivery Time:</label>
+            <input type="datetime-local" id="delivery-time" name="delivery-time"> <!-- Input field for delivery time -->
+            <br>
+            <label for="size">Size:</label>
+            <select id="size" name="size" required> <!-- Dropdown for pizza size -->
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            <br>
+            <label for="toppings">Toppings:</label>
+            <input type="text" id="toppings" name="toppings"> <!-- Input field for toppings -->
+            <br>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required> <!-- Input field for quantity -->
+            <br>
+            <button type="button" id="order-btn">Order</button> <!-- Button to submit order -->
+        </form>
+        <div id="pizza-description"></div> <!-- Placeholder for pizza description -->
+    </div>
+</body>
+</html>

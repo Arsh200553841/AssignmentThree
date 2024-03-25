@@ -1,0 +1,56 @@
+/* Set the font family and background color for the entire document */
+body {
+    font-family: Arial, sans-serif; /* Use Arial font family with fallback to sans-serif */
+    background-color: #f3f3f3; /* Set background color to light gray */
+}
+
+/* Style for the container element */
+.container {
+    max-width: 600px; /* Set maximum width of the container */
+    margin: 50px auto; /* Center the container horizontally with 50px top and bottom margin */
+    padding: 20px; /* Add 20px padding inside the container */
+    background-color: #fff; /* Set background color to white */
+    border-radius: 8px; /* Apply border radius to create rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+
+/* Style for heading level 1 */
+h1 {
+    text-align: center; /* Center align the text */
+    color: #333; /* Set text color to dark gray */
+}
+
+/* Style for labels */
+label {
+    font-weight: bold; /* Make labels bold */
+}
+
+/* Style for text inputs, select elements, number inputs, and buttons */
+input[type="text"],
+select,
+input[type="number"],
+button {
+    margin-bottom: 10px; /* Add 10px margin bottom for spacing */
+    width: 100%; /* Set width to 100% */
+    padding: 8px; /* Add 8px padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Style for buttons */
+button {
+    background-color: #4caf50; /* Set background color to green */
+    color: #fff; /* Set text color to white */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Apply border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #45a049; /* Darken background color on hover */
+}
+
+/* Style for the pizza description */
+#pizza-description {
+    margin-top: 20px; /* Add 20px margin top for spacing */
+}
